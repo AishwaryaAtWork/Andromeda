@@ -10,7 +10,6 @@ function App() {
       <NavBar />
       <Carousels />
       <CardComponent internshipsData={internshipsData} />
-      {/* skjhguewhg */}
     </>
   );
 }
