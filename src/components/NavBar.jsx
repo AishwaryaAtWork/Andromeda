@@ -23,7 +23,6 @@ export default function NavBar() {
                     <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
                         <ul class="navbar-nav">
                             <li class="nav-item dropdown">
-                                nsl
                                 <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                                     Dropdown
                                 </button>
@@ -38,6 +37,5 @@ export default function NavBar() {
                 </div>
             </div>
         </nav>
-        // sgsg
     );
 }
