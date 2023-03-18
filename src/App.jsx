@@ -7,7 +7,9 @@ import Carousels from './components/Carousels';
 function App() {
   return (
     <>
-      <div> Hello</div>
+      <NavBar />
+      <Carousels />
+      <CardComponent internshipsData={internshipsData} />
     </>
   );
 }
