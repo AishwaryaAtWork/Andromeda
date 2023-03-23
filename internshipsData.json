@@ -16,14 +16,18 @@
         },
         {
             "id": 2,
-            "title": "Internship 2",
-            "description": "This is the description of the internship 2",
-            "company": "Company 2",
+            "title": "Software Engineering Intern, 2023",
+
+            "description": "STEP (Student Training in Engineering Program), formerly known as Engineering Practicum, is a 12-week internship for first and second-year undergraduate students with a passion for computer science.
+
+            The internship program has a focus of providing development opportunities to students from groups historically underrepresented in tech, through technical training and professional development. Our unique internship offers the opportunity to work on a software project alongside other STEP interns and full-time Googlers, and provides the chance to bridge the gap between academic understanding and practical professional experience.",
+
+            "company": "Google",
             "location": "Location 2",
-            "duration": "Duration 2",
-            "stipend": "Stipend 2",
-            "start_date": "Start Date 2",
-            "end_date": "End Date 2",
+            "duration": "Students must be available for a 12-week internship",
+            "stipend": " ",
+            "start_date": "May 22, 2023",
+            "end_date": "August 11, 2023",
             "apply_by": "Apply By 2",
             "link": "Link 2",
             "image": "https://www.asumidsouth.edu/wp-content/uploads/2021/03/intern.jpeg"
