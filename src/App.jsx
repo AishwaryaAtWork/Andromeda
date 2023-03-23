@@ -9,9 +9,9 @@ function App() {
   return (
     <>
       <NavBar />
-      {/* <Carousels />
+      <Carousels />
       <CardComponent internshipsData={internshipsData} />
-      <Footer/> */}
+      <Footer/>
     </>
   );
 }
