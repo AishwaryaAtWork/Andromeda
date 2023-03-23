@@ -2,6 +2,7 @@
     "internships": [
         {
             "id": 1,
+            "Category": "Software Engineering",
             "title": "Google Summer of Code",
             "description": "Google Summer of Code (GSoC) is an annual program that provides university students with an opportunity to work on open source projects with mentorship from experienced developers.",
             "company": "Google",
@@ -16,8 +17,8 @@
         },
         {
             "id": 2,
+            "Category": "Software Engineering",
             "title": "Software Engineering Intern, 2023",
-
             "description": "Google offers paid full-time internships for students interested in technology, working on core software projects mentored by a Google Engineer. Google hires skilled engineers to tackle global technological challenges, from Google Ads to YouTube.",
             "company": "Google",
             "location": "In-office: Tokyo, Japan",
