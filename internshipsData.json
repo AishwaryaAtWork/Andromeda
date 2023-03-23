@@ -33,17 +33,20 @@
         },
         {
             "id": 3,
-            "title": "Internship 3",
-            "description": "This is the description of the internship 3",
-            "company": "Company 3",
-            "location": "Location 3",
-            "duration": "Duration 3",
-            "stipend": "Stipend 3",
-            "start_date": "Start Date 3",
-            "end_date": "End Date 3",
-            "apply_by": "Apply By 3",
-            "link": "Link 3",
-            "image": "https://www.asumidsouth.edu/wp-content/uploads/2021/03/intern.jpeg"
+            "Category": "Security Engineering",
+            "title": "Security Engineering Intern, Summer 2023",
+            "description": "Google's Systems Infrastructure team is responsible for building and maintaining the technology that powers Google's services and ensures user privacy and security. As a Security Engineer Intern, you would work on protecting network boundaries, monitoring systems for attacks, and developing tools to support project teams. Google values engineers with a wide range of technical skills who are passionate about addressing technology's biggest challenges and making a positive impact on the world.",
+            "company": "Google",
+            "location": "remote or In-office: Sydney NSW, Australia",
+            "duration": "10 weeks",
+            "stipend": "Unpaid",
+            "start_date": "June 5, 2023",
+            "end_date": "August 11, 2023",
+            "apply_by": "Please complete your application by March 29th, 2023.",
+
+            "link": "https://www.google.com/about/careers/applications/signin?jobId=CiUAL2FckerpfSRvFhjBmBnpfx5voMFgJ_cZB2LPr9X2c9fRrxIoEjsAbmRECQ9HS718oPD1JVAxMAVlzcXEgetut52xaKnzKLHJKX5LhmxpsPVqmT18URqwfqLRkgA7YF9sVQ%3D%3D_V2&jobTitle=Security%20Engineering%20Intern&loc=AU&source=Online%2FGoogle%20Website%2FByF&_ga=2.86457499.2070804560.1679583718-151680654.1679583718&_gl=1*194c7s3*_ga*MTUxNjgwNjU0LjE2Nzk1ODM3MTg.*_ga_41NEC9ZD62*MTY3OTU5MTAxNy4yLjEuMTY3OTU5NDQwMi4wLjAuMA..",
+
+            "image": "https://www.openmainframeproject.org/wp-content/uploads/sites/11/2018/04/Internship_logo_color.png"
         },
         {
             "id": 4,
