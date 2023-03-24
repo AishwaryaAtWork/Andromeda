@@ -2,7 +2,7 @@
     "apprenticeships": [
         {
             "id": 1,
-            "domanin": "Software Engineering",
+            "domain": "Software Engineering",
             "title": "UK Software Engineering Apprenticeship",
             "description": "The Software Engineering Apprenticeship is a full time, 24 month, paid role which includes an initial technical ‘Bootcamp’ for 5 months which takes place remotely and is delivered through an external training provider.",
             "company": "Apple",
@@ -31,7 +31,7 @@
             "image": "https://i.ytimg.com/vi/q19SKzfyPQw/maxresdefault.jpg"
         },
         {
-            "id": 2,
+            "id": 3,
             "domain": "Digital Marketing",
             "title": "Digital Marketing Apprenticeship, July 2023 Start",
             "description": "The Google Digital Marketing Apprenticeship is a 24-month in-person program for early career graduates interested in Digital Marketing. Apprentices work with a Google team, relocate if needed, and attend classroom learning. No immigration sponsorship.",
@@ -46,7 +46,7 @@
             "image": "https://careers.google.com/jobs/dist/img/meta/og-image.ad9235200b79feb205f6.jpg"
         },
         {
-            "id": 3,
+            "id": 4,
             "domain": "Project Management",
             "title": "Project Management Apprenticeship, July 2023 Start",
             "description": "The Google Project Management Apprenticeship is a 24-month in-person program for early career graduates interested in Project Management. Apprentices work with a Google team, relocate if needed, and attend classroom learning. No immigration sponsorship.",
@@ -61,7 +61,7 @@
             "image": "https://i.ytimg.com/vi/6prZkTUK5TE/mqdefault.jpg"
         },
         {
-            "id": 4,
+            "id": 5,
             "domain": "Administrative and Clerical Support",
             "title": "Student Education Service Officer",
             "description": "This role will be based on the University campus, with scope for it to be undertaken in a hybrid manner. We are also open to discussing flexible working arrangements.",
@@ -75,7 +75,7 @@
             "image": "https://cdn.seeklearning.com.au/media/images/career-guide/module/student-support-officer.png"
         },
         {
-            "id": 5,
+            "id": 6,
             "domain": "Student Support Administrator",
             "title": "Student Support Administrator Apprenticeship",
             "description": "Suffolk Academies Trust seeks a Student Support Administrator at Abbeygate Sixth Form College, Bury St Edmunds, alongside One Sixth Form College.",
@@ -89,7 +89,7 @@
             "image": "https://www.easyuni.com/media/institution/photo/2014/08/02/West_Suffolk_College.jpg.600x400_q85.jpg"
         },
         {
-            "id": 6,
+            "id": 7,
             "domain": "Student Finance Officer",
             "title": "Student Finance Officer Apprenticeship",
             "description": "Assist with Student Finance applications, scheduling meetings, updating records, responding to inquiries, and providing customer care.",
@@ -104,7 +104,7 @@
             "image": "https://sas-production-uploads.s3.eu-west-2.amazonaws.com/article_main_img/tool/large_481999925.png"
         },
         {
-            "id": 7,
+            "id": 8,
             "domain": "Teaching Assistant",
             "title": "Teaching Assistant Apprenticeship",
             "description": "The Florence Nightingale Academy is hiring a teaching assistant to support primary school children's learning in groups or individually.",
