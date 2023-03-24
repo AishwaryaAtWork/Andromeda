@@ -2,17 +2,18 @@
     "internships": [
         {
             "id": 1,
-            "title": "Internship 2",
-            "description": "This is the description of the internship 1",
-            "company": "Company 1",
-            "location": "Location 1",
-            "duration": "Duration 1",
-            "stipend": "Stipend 1",
-            "start_date": "Start Date 1",
-            "end_date": "End Date 1",
-            "apply_by": "hello world",
-            "link": "Link 1",
-            "image": "https://www.asumidsouth.edu/wp-content/uploads/2021/03/intern.jpeg"
+            "Category": "Software Engineering",
+            "title": "Google Summer of Code",
+            "description": "Google Summer of Code (GSoC) is an annual program that provides university students with an opportunity to work on open source projects with mentorship from experienced developers.",
+            "company": "Google",
+            "location": "Remote",
+            "duration": "GSoC Contributors work with an open source organization on a 12+ week programming project under the guidance of mentors",
+            "stipend": "Stipends are paid in two parts, one after each successful evaluation. The dates below are based on the standard 12 week project. If your project is longer, your evaluation and payments schedule will be different. The first evaluation will occur at the halfway point of your project (e.g. For a 16 week project the evaluation will occur after week 8). You can also check your GSoC dashboard to view when your evaluations occur.",
+            "start_date": "May 29, 2023",
+            "end_date": "November 13, 2023",
+            "apply_by": "Apr 4, 2023",
+            "link": "https://summerofcode.withgoogle.com/",
+            "image": "https://2.bp.blogspot.com/-3PZMTk6iq_4/Wn4_XZx0VhI/AAAAAAAABYQ/3JUkYYVW_I4TUpVa2CPWS9Xl8MxuEfF2wCLcBGAs/s1600/GSoC%2B-%2BVertical%2BNarrow%2B-%2BGray%2BText%2B-%2BWhite%2BBG.png"
         },
         {
             "id": 2,
