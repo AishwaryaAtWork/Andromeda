@@ -2,7 +2,7 @@
     "apprenticeships": [
         {
             "id": 1,
-            "domanin": "Software Engineering",
+            "domain": "Software Engineering",
             "title": "UK Software Engineering Apprenticeship",
             "description": "The Software Engineering Apprenticeship is a full time, 24 month, paid role which includes an initial technical ‘Bootcamp’ for 5 months which takes place remotely and is delivered through an external training provider.",
             "company": "Apple",
@@ -11,7 +11,7 @@
             "stipend": "Paid",
             "start_date": "Decided later",
             "apply_by": "Invited at session on April once recruitment for 2023 begins",
-            "for more details": "Please leave your expression of intrest at: uk_apprenticeships@group.apple.com",
+            "for more details": "Please leave your expression of interest at: uk_apprenticeships@group.apple.com",
             "link": "https://jobs.apple.com/app/en-in/apply/200464477",
             "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fgivemechallenge.com%2Fhow-to-get-apple-internships-70793%2F26914%2F&psig=AOvVaw0baI9y_6ILU_SZ4M1FoKLc&ust=1679678939181000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOjhyuTJ8v0CFQAAAAAdAAAAABAE"
         },

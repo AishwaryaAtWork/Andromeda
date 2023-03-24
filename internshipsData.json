@@ -16,7 +16,7 @@
         },
         {
             "id": 2,
-            "Category": "Software Engineering",
+            "Category": "Web",
             "title": "Software Engineering Intern, 2023",
             "description": "Google offers paid full-time internships for students interested in technology, working on core software projects mentored by a Google Engineer. Google hires skilled engineers to tackle global technological challenges, from Google Ads to YouTube.",
             "company": "Google",
@@ -112,20 +112,6 @@
             "end_date": "End Date 8",
             "apply_by": "Apply By 8",
             "link": "Link 8",
-            "image": "https://www.asumidsouth.edu/wp-content/uploads/2021/03/intern.jpeg"
-        },
-        {
-            "id": 9,
-            "title": "Internship 9",
-            "description": "This is the description of the internship 9",
-            "company": "Company 9",
-            "location": "Location 9",
-            "duration": "Duration 9",
-            "stipend": "Stipend 9",
-            "start_date": "Start Date 9",
-            "end_date": "End Date 9",
-            "apply_by": "Apply By 9",
-            "link": "Link 9",
             "image": "https://www.asumidsouth.edu/wp-content/uploads/2021/03/intern.jpeg"
         }
     ]
