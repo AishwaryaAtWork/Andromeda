@@ -3,7 +3,6 @@ import CardComponent from "./components/CardComponent";
 import NavBar from "./components/NavBar";
 import internshipsData from "../internshipsData";
 import Carousels from "./components/Carousels";
-import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -11,7 +10,6 @@ function App() {
       <NavBar />
       <Carousels />
       <CardComponent internshipsData={internshipsData} />
-      <Footer/>
     </>
   );
 }
