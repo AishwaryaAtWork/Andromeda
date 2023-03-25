@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <NavBar />
-      <Carousels />
+      <Carousels internshipsData={internshipsData}/>
       <CardComponent internshipsData={internshipsData} />
     </>
   );
