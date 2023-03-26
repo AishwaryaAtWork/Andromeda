@@ -5,7 +5,7 @@ function LowerNavbar(props) {
   return (
     <>
     {/* Navbar below slider  */}
-    <nav className='bg-blue-500 shadow-lg shadow-blue-300 md:flex md:items-center md:justify-between'>
+    <nav id="opportunity" className='bg-blue-500 shadow-lg shadow-blue-300 md:flex md:items-center md:justify-between'>
         <ul className='md:flex md:items-center '>
             {/* Reanders as much as number of types available in list */}
             {opportunityType.map((types)=>(
