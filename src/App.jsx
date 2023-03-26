@@ -14,8 +14,8 @@ function App() {
       <NavBar />
       <Carousels sliderImagesData={sliderImagesData}/>
       <LowerNavbar opportunityTypeData={opportunityTypeData}/>
-      {/* <CardComponent internshipsData={internshipsData} /> */}
-      <Card internshipsData={internshipsData}/>
+      <CardComponent internshipsData={internshipsData} />
+      {/* <Card internshipsData={internshipsData}/> */}
     </>
   );
 }
