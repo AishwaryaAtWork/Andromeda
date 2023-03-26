@@ -1,0 +1,14 @@
+/* Forr custom scrollbar */
+html{
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+    width: 0.9rem;
+}
+html::-webkit-scrollbar-thumb{
+    /* background: #3b82f6; */
+    background: #1e40af;
+    border-radius: 1rem;
+    border: 0.2rem solid transparent;
+    background-clip: content-box;
+}

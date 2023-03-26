@@ -6,6 +6,7 @@ import sliderImagesData from "./constants/sliderImagesData";
 import opportunityTypeData from "./constants/opportunityTypeData";
 import Carousels from "./components/Carousels";
 import LowerNavbar from "./components/LowerNavbar";
+import Card from "./components/Card";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <NavBar />
       <Carousels sliderImagesData={sliderImagesData}/>
       <LowerNavbar opportunityTypeData={opportunityTypeData}/>
-      <CardComponent internshipsData={internshipsData} />
+      {/* <CardComponent internshipsData={internshipsData} /> */}
+      <Card internshipsData={internshipsData}/>
     </>
   );
 }
