@@ -88,7 +88,7 @@ export default function NavBar() {
             </div>
           </div>
         </div>
-        <div className="hidden space-x-2 md:inline-block">
+        {/* <div className="hidden space-x-2 md:inline-block">
           <a
             href="javascript:void(0)"
             className="px-4 py-2 text-white font-semibold bg-blue-900 rounded-md shadow shadow-white hover:bg-blue-400"
@@ -101,7 +101,7 @@ export default function NavBar() {
           >
             Sign up
           </a>
-        </div>
+        </div> */}
       </div>
     </nav>
   );
