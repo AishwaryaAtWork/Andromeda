@@ -19,12 +19,14 @@ export default function Carousels(props) {
         const newIndex = isFirstSlide ? sliderImages.length - 1 : currIndex - 1;
         setCurrIndex(newIndex);
     };
+
     // Function for next button
     const nextSlide = () => {
         const isLastSlide = currIndex === sliderImages.length - 1;
         const newIndex = isLastSlide ? 0 : currIndex + 1;
         setCurrIndex(newIndex);
     };
+    
     // Function to go to perticular image slide using dots
     const goToSlide = (slideIndex) => {
         setCurrIndex(slideIndex);
