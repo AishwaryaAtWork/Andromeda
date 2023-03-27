@@ -8,26 +8,27 @@ import BounceLoader from "react-spinners/BounceLoader";
 import './App.css';
 
 function App() {
-  const [loading,setLoading] = useState(false);
-  useEffect(()=>{
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {
     setLoading(true);
-    setTimeout(()=>{
+    setTimeout(() => {
       setLoading(false);
-    },3000);
-  },[]);
+    }, 1500);
+  }, []);
+
   return (
     <>
+      <NavBar />
       {
-        loading ? 
+        loading ?
           <div className="loader">
-            <BounceLoader color={"#3b82f6"} loading={loading} size={90}/>
+            <BounceLoader color={"#3b82f6"} loading={loading} size={90} />
           </div>
-        :
-        <>
-          <NavBar />
-          <Carousels sliderImagesData={sliderImagesData}/>
-          <LowerNavbar opportunityTypeData={opportunityTypeData}/>
-        </>
+          :
+          <>
+            <Carousels sliderImagesData={sliderImagesData} />
+            <LowerNavbar opportunityTypeData={opportunityTypeData} />
+          </>
       }
     </>
   );
