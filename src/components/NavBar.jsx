@@ -4,14 +4,14 @@ export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <nav className="w-full bg-zinc-100 shadow">
+    <nav className="w-full bg-blue-500 shadow-lg shadow-blue-700 border-b-2 border-b-white mb-4">
       {/* <img src="abc.jpeg" alt="logo" class="w-9 h-9" /> */}
       <div className="justify-between mx-1 md:items-center md:flex md:px-8">
         <div>
-          <div className="flex items-center justify-between py-3 md:py-5 md:block">
+          <div className="flex items-center justify-between py-4 md:py-4 md:block">
             <a href="javascript:void(0)">
-              <h2 className="text-2xl font-bold text-black font-serif">
-                Interninfo
+              <h2 className="text-2xl font-bold text-white font-serif ">
+                INTERNINFO.
               </h2>
             </a>
             <div className="md:hidden">
@@ -59,30 +59,30 @@ export default function NavBar() {
             }`}
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-              <li className="text-black hover:text-blue-900">
+              <li className="text-white font-semibold hover:text-blue-800">
                 <a href="javascript:void(0)">Home</a>
               </li>
-              <li className="text-black hover:text-blue-900">
-                <a href="javascript:void(0)">Opportunities</a>
+              <li className="text-white font-semibold hover:text-blue-800">
+                <a href="#opportunity">Opportunities</a>
               </li>
-              <li className="text-black hover:text-blue-900">
-                <a href="javascript:void(0)">About US</a>
+              <li className="text-white font-semibold hover:text-blue-800">
+                <a href="javascript:void(0)">About Us</a>
               </li>
-              <li className="text-black hover:text-blue-900">
-                <a href="javascript:void(0)">Contact US</a>
+              <li className="text-white font-semibold hover:text-blue-800">
+                <a href="javascript:void(0)">Contact Us</a>
               </li>
             </ul>
 
             <div className="mt-3 space-y-2 lg:hidden md:inline-block">
               <a
                 href="javascript:void(0)"
-                className="inline-block w-full px-4 py-2 text-center text-white bg-cyan-400 rounded-md shadow hover:bg-cyan-800"
+                className="inline-block w-full px-4 py-2 text-center text-white font-semibold bg-blue-900 rounded-md shadow shadow-white hover:bg-blue-400"
               >
                 Sign in
               </a>
               <a
                 href="javascript:void(0)"
-                className="inline-block w-full px-4 py-2 text-center text-gray-800 bg-white rounded-md shadow hover:bg-gray-100"
+                className="inline-block w-full px-4 py-2 text-center text-blue-800 font-semibold bg-white rounded-md shadow shadow-blue-700 hover:bg-blue-200"
               >
                 Sign up
               </a>
@@ -92,13 +92,13 @@ export default function NavBar() {
         <div className="hidden space-x-2 md:inline-block">
           <a
             href="javascript:void(0)"
-            className="px-4 py-2 text-white bg-cyan-400 rounded-md shadow hover:bg-cyan-700"
+            className="px-4 py-2 text-white font-semibold bg-blue-900 rounded-md shadow shadow-white hover:bg-blue-400"
           >
-            Sign in
+            Sign in 
           </a>
           <a
             href="javascript:void(0)"
-            className="px-4 py-2 text-gray-800 bg-white rounded-md shadow hover:bg-gray-100"
+            className="px-4 py-2 text-blue-800 font-semibold bg-white rounded-md shadow shadow-blue-700 hover:bg-blue-200"
           >
             Sign up
           </a>
