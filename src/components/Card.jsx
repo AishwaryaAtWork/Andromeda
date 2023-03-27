@@ -5,7 +5,7 @@ export default function Card({i}) {
     return (
         <>
             <div className='py-4 px-2 transform transition-all hover:scale-105'>
-                    <div className='rounded overflow-hidden shadow-lg bg-blue-400 shadow-blue-700 max-w-xs'>
+                    <div className='rounded overflow-hidden shadow-lg bg-blue-400 shadow-blue-500 max-w-xs'>
                         {/* Card images here  */}
                         <img src={i.image} className='w-full h-[180px] bg-white shadow-lg shadow-blue-500'/>
                         {/* Card textual data + button  */}

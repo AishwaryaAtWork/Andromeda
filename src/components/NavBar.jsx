@@ -4,7 +4,7 @@ export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <nav className="w-full bg-blue-500 shadow-lg shadow-blue-600 mb-4">
+    <nav className="w-full bg-blue-500 shadow-lg shadow-blue-700 border-b-2 border-b-white mb-4">
       {/* <img src="abc.jpeg" alt="logo" class="w-9 h-9" /> */}
       <div className="justify-between mx-1 md:items-center md:flex md:px-8">
         <div>
