@@ -34,7 +34,7 @@ export default function Carousels(props) {
         <div className='h-[530px]'>
             {/* Div for images */}
             <div className='h-[480px] max-w-[98%] w-full mx-auto my-5 relative group '>
-                <img className='h-full w-full object-fill shadow-lg shadow-blue-500 '
+                <img className='h-full w-full object-fill '
                     src={`${sliderImages[currIndex].url}`} />
                 {/* Left arrow  */}
                 <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full
