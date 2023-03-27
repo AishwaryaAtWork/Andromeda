@@ -17,11 +17,13 @@ export default function CardComponent(props) {
   }
   return (
     <>
-      {/* Card container div  */}
-      <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 justify-items-center'>
-        {OpportunityType.map((i)=>(
-          <Card i={i} key={i.id}/>
-        ))}
+      <div className="container mx-auto py-7 px-2">
+          {/* Card container div  */}
+          <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center'>
+            {OpportunityType.map((i)=>(
+              <Card i={i} key={i.id}/>
+          ))}
+        </div>
       </div>
     </>
   );

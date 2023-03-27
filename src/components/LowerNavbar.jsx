@@ -13,7 +13,7 @@ function LowerNavbar(props) {
         <ul className='md:flex md:items-center '>
             {/* Reanders as much as number of types available in list */}
             {opportunityType.map((types)=>(
-                <li className='text-xl px-3 py-2 text-center text-white hover:bg-blue-800 
+                <li className='text-xl p-3 text-center text-white hover:bg-blue-800 
                 duration-500 cursor-pointer'
                  key={types}
                 //  To set type of opportunity to render
