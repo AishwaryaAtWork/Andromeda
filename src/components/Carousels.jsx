@@ -5,6 +5,14 @@ import {RxDotFilled} from 'react-icons/rx';
 export default function Carousels(props) {
     const { sliderImages } = props.sliderImagesData;
     const [currIndex, setCurrIndex]=useState(0);
+
+    // To move slides automatically
+    useEffect(()=>{
+        setInterval(()=>{
+            setCurrIndex(currIndex=> currIndex < sliderImages.length-1 ? currIndex+1 : 0);
+        },4000);
+    },[setCurrIndex]);
+
     // Function for previos button 
     const prevSlide=()=>{
         const isFirstSlide = currIndex===0;
@@ -25,8 +33,8 @@ export default function Carousels(props) {
     return (
         <div className='h-[530px]'>
         {/* Div for images */}
-        <div className='h-[480px] max-w-[98%] w-full mx-auto my-3 relative group '>
-              <img className='h-full w-full object-fill rounded-xl shadow-lg shadow-blue-400 duration-500' 
+        <div className='h-[480px] max-w-[98%] w-full mx-auto my-5 relative group '>
+              <img className='h-full w-full object-fill rounded-xl shadow-lg shadow-blue-400 ' 
               src={`${sliderImages[currIndex].url}`} />
               {/* Left arrow  */}
               <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full

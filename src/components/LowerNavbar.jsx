@@ -1,12 +1,11 @@
 import React, { useState } from 'react'
+import CardComponent from './CardComponent';
+import internshipsData from "../Data/internshipsData";
+import apprenticeshipsData from "../Data/apprenticeshipsData";
 
 function LowerNavbar(props) {
     const { opportunityType } = props.opportunityTypeData;
     const [type,setType]=useState('Internships');
-    const oppoType=(types)=>{
-      setType(types);
-      console.log(type);
-    };
   return (
     <>
     {/* Navbar below slider  */}
@@ -17,10 +16,12 @@ function LowerNavbar(props) {
                 <li className='text-xl px-3 py-2 text-center text-white hover:bg-blue-800 
                 duration-500 cursor-pointer'
                  key={types}
-                 onClick={()=>oppoType(types)}>{types}</li>
+                //  To set type of opportunity to render
+                 onClick={()=>setType(types)}>{types}</li>
             ))}
         </ul>
     </nav>
+    <CardComponent type={type} apprenticeshipsData={apprenticeshipsData} internshipsData={internshipsData}/>
     </>
   )
 }
