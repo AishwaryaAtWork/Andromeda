@@ -13,28 +13,28 @@ export default function Carousels(props) {
         },4000);
     },[setCurrIndex]);
 
-    // Function for previos button 
+    // Function for previous button
     const prevSlide=()=>{
         const isFirstSlide = currIndex===0;
         const newIndex = isFirstSlide ? sliderImages.length-1 : currIndex-1;
         setCurrIndex(newIndex);
     };
-    // Function for next button 
+    // Function for next button
     const nextSlide=()=>{
         const isLastSlide = currIndex===sliderImages.length-1;
         const newIndex = isLastSlide ? 0 : currIndex+1;
         setCurrIndex(newIndex);
     };
-    // Functon to go to perticular image slide using dots 
+    // Function to go to perticular image slide using dots
     const goToSlide=(slideIndex)=>{
         setCurrIndex(slideIndex);
     };
-    
+
     return (
         <div className='h-[530px]'>
         {/* Div for images */}
         <div className='h-[480px] max-w-[98%] w-full mx-auto my-5 relative group '>
-              <img className='h-full w-full object-fill rounded-xl shadow-lg shadow-blue-500 ' 
+              <img className='h-full w-full object-fill rounded-xl shadow-lg shadow-blue-500 '
               src={`${sliderImages[currIndex].url}`} />
               {/* Left arrow  */}
               <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full
@@ -49,7 +49,7 @@ export default function Carousels(props) {
               {/* Dot icons  */}
               <div className='flex top-4 justify-center py-2 text-blue-800'>
                 {sliderImages.map((slide,slideIndex)=>(
-                    <div key={slideIndex} onClick={()=>goToSlide(slideIndex)} 
+                    <div key={slideIndex} onClick={()=>goToSlide(slideIndex)}
                     className='text-2xl cursor-pointer'>
                         <RxDotFilled/>
                     </div>
