@@ -4,6 +4,10 @@ import Card from "./Card";
 export default function CardComponent(props) {
   const { apprenticeships } = props.apprenticeshipsData;
   const { internships } = props.internshipsData;
+  const opportunityType =
+    props.type.toLowerCase() === "apprenticeships"
+      ? apprenticeships
+      : internships;
 
   // To decide opportunity on lower navbar click
   const OpportunityType = props.type.toLowerCase()==="Apprenticeships" ? apprenticeships : internships;
