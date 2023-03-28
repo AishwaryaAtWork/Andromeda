@@ -5,7 +5,8 @@ import opportunityTypeData from "./constants/opportunityTypeData";
 import Carousels from "./components/Carousels";
 import LowerNavbar from "./components/LowerNavbar";
 import BounceLoader from "react-spinners/BounceLoader";
-import './App.css';
+import Footer from "./components/Footer";
+import "./App.css";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -19,17 +20,17 @@ function App() {
   return (
     <>
       <NavBar />
-      {
-        loading ?
-          <div className="loader">
-            <BounceLoader color={"#3b82f6"} loading={loading} size={90} />
-          </div>
-          :
-          <>
-            <Carousels sliderImagesData={sliderImagesData} />
-            <LowerNavbar opportunityTypeData={opportunityTypeData} />
-          </>
-      }
+      {loading ? (
+        <div className="loader">
+          <BounceLoader color={"#3b82f6"} loading={loading} size={90} />
+        </div>
+      ) : (
+        <>
+          <Carousels sliderImagesData={sliderImagesData} />
+          <LowerNavbar opportunityTypeData={opportunityTypeData} />
+          <Footer />
+        </>
+      )}
     </>
   );
 }
