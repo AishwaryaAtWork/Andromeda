@@ -4,14 +4,14 @@ export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <nav className="w-full bg-blue-500 shadow-lg shadow-blue-700 border-b-2 border-b-white mb-4">
+    <nav className="w-full bg-blue-500 shadow-md shadow-blue-500 border-b-2 border-b-white mb-4 ">
       {/* <img src="abc.jpeg" alt="logo" class="w-9 h-9" /> */}
       <div className="justify-between mx-1 md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-4 md:py-4 md:block">
             <a href="javascript:void(0)">
               <h2 className="text-2xl font-bold text-white font-serif ">
-                INTERNINFO.
+                ScholarSphere
               </h2>
             </a>
             <div className="md:hidden">
@@ -54,9 +54,8 @@ export default function NavBar() {
         </div>
         <div>
           <div
-            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
-              navbar ? "block" : "hidden"
-            }`}
+            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? "block" : "hidden"
+              }`}
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               <li className="text-white font-semibold hover:text-blue-800">
@@ -72,8 +71,8 @@ export default function NavBar() {
                 <a href="javascript:void(0)">Contact Us</a>
               </li>
             </ul>
-
-            <div className="mt-3 space-y-2 lg:hidden md:inline-block">
+    {/* --------------- Sign in/up button for future use in medium devices ----------------  */}
+            {/* <div className="mt-3 space-y-2 lg:hidden md:inline-block">
               <a
                 href="javascript:void(0)"
                 className="inline-block w-full px-4 py-2 text-center text-white font-semibold bg-blue-900 rounded-md shadow shadow-white hover:bg-blue-400"
@@ -86,15 +85,16 @@ export default function NavBar() {
               >
                 Sign up
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
-        <div className="hidden space-x-2 md:inline-block">
+    {/* --------------- Sign in/up button for future use in large devices -----------------  */}
+        {/* <div className="hidden space-x-2 md:inline-block">
           <a
             href="javascript:void(0)"
             className="px-4 py-2 text-white font-semibold bg-blue-900 rounded-md shadow shadow-white hover:bg-blue-400"
           >
-            Sign in 
+            Sign in
           </a>
           <a
             href="javascript:void(0)"
@@ -102,7 +102,7 @@ export default function NavBar() {
           >
             Sign up
           </a>
-        </div>
+        </div> */}
       </div>
     </nav>
   );
