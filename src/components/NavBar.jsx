@@ -54,8 +54,9 @@ export default function NavBar() {
         </div>
         <div>
           <div
-            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? "block" : "hidden"
-              }`}
+            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+              navbar ? "block" : "hidden"
+            }`}
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               <li className="text-white font-semibold hover:text-blue-800">
@@ -71,7 +72,7 @@ export default function NavBar() {
                 <a href="javascript:void(0)">Contact Us</a>
               </li>
             </ul>
-    {/* --------------- Sign in/up button for future use in medium devices ----------------  */}
+            {/* --------------- Sign in/up button for future use in medium devices ----------------  */}
             {/* <div className="mt-3 space-y-2 lg:hidden md:inline-block">
               <a
                 href="javascript:void(0)"
@@ -88,8 +89,8 @@ export default function NavBar() {
             </div> */}
           </div>
         </div>
-    {/* --------------- Sign in/up button for future use in large devices -----------------  */}
-        {/* <div className="hidden space-x-2 md:inline-block">
+        {/* --------------- Sign in/up button for future use in large devices -----------------  */}
+        <div className="hidden space-x-2 md:inline-block">
           <a
             href="javascript:void(0)"
             className="px-4 py-2 text-white font-semibold bg-blue-900 rounded-md shadow shadow-white hover:bg-blue-400"
@@ -102,7 +103,7 @@ export default function NavBar() {
           >
             Sign up
           </a>
-        </div> */}
+        </div>
       </div>
     </nav>
   );
