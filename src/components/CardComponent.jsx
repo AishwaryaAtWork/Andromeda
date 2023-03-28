@@ -8,11 +8,13 @@ export default function CardComponent(props) {
 
   return (
     <>
-      {/* Card container div  */}
-      <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 justify-items-center'>
-        {opportunityType.map((i) => (
-          <Card i={i} key={i.id} />
+      <div className="container my-8 md:mx-auto px-3">
+        {/* Card container div  */}
+      <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center'>
+        {opportunityType.map((t) => (
+          <Card t={t} key={t.id} />
         ))}
+      </div>
       </div>
     </>
   );

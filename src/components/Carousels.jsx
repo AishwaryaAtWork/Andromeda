@@ -42,7 +42,8 @@ export default function Carousels(props) {
             {/* Container for the images */}
             <div className='h-[480px] max-w-[98%] w-full mx-auto my-5 relative group'>
                 {/* Display the current image */}
-                <img className='h-full w-full object-fill' src={`${sliderImages[currIndex].url}`} />
+                <img className='h-full w-full object-fill shadow-lg shadow-blue-400 rounded-sm' 
+                src={`${sliderImages[currIndex].url}`} />
 
                 {/* Display the left arrow button */}
                 <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full

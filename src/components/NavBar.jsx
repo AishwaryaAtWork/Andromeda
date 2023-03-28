@@ -4,14 +4,14 @@ export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <nav className="w-full bg-blue-500 shadow-lg border-b-2 border-b-white mb-4">
+    <nav className="w-full bg-blue-500 shadow-md shadow-blue-500 border-b-2 border-b-white mb-4 ">
       {/* <img src="abc.jpeg" alt="logo" class="w-9 h-9" /> */}
       <div className="justify-between mx-1 md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-4 md:py-4 md:block">
             <a href="javascript:void(0)">
               <h2 className="text-2xl font-bold text-white font-serif ">
-                INTERNINFO.
+                ScholarSphere
               </h2>
             </a>
             <div className="md:hidden">
@@ -71,8 +71,8 @@ export default function NavBar() {
                 <a href="javascript:void(0)">Contact Us</a>
               </li>
             </ul>
-
-            <div className="mt-3 space-y-2 lg:hidden md:inline-block">
+    {/* --------------- Sign in/up button for future use in medium devices ----------------  */}
+            {/* <div className="mt-3 space-y-2 lg:hidden md:inline-block">
               <a
                 href="javascript:void(0)"
                 className="inline-block w-full px-4 py-2 text-center text-white font-semibold bg-blue-900 rounded-md shadow shadow-white hover:bg-blue-400"
@@ -85,9 +85,10 @@ export default function NavBar() {
               >
                 Sign up
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
+    {/* --------------- Sign in/up button for future use in large devices -----------------  */}
         {/* <div className="hidden space-x-2 md:inline-block">
           <a
             href="javascript:void(0)"
