@@ -215,6 +215,75 @@
             "apply_by": "9 April, 2023",
             "link": "https://internshala.com/student/interstitial/application/python-django-development-work-from-home-job-internship-at-visual-verb1679836259",
             "image": "https://th.bing.com/th/id/OIP.k_n6idacF6MOC6Hm1R2s7AHaCT?pid=ImgDet&rs=1"
+        },
+        {
+            "id": 16,
+            "title": "Computer Vision",
+            "description": "As an intern, work on image processing, AR, computer vision R&D, and learn new tech while being curious about ModakaTech & Camweara.",
+            "company": "Modaka Technologies Private Limited",
+            "location": "Bangalore",
+            "duration": "3 Months",
+            "stipend": "₹12,000/month",
+            "start_date": "between 30th March, 2023 and 4th May, 2023",
+            "end_date": "August, 2023",
+            "apply_by": "13 April, 2023",
+            "link": "https://internshala.com/student/interstitial/application/computer-vision-internship-in-bangalore-at-modaka-technologies-private-limited1680153779",
+            "image": "https://venturebeat.com/wp-content/uploads/2017/01/computer-vision.jpg?fit=2048%2C1281&strip=all"
+        },
+        {
+            "id": 17,
+            "title": "Curriculum Development (AI/ML) ",
+            "description": "As an intern, develop & modify AI, ML, data science, IoT & Python curriculum, build use cases & create course materials with example code.",
+            "company": "Sustainable Living Lab (SL2)",
+            "location": "Remote",
+            "duration": "3 Months",
+            "stipend": "₹15,000/month",
+            "start_date": "between 30th March, 2023 and 4th May, 2023",
+            "end_date": "August, 2023",
+            "apply_by": "13 April, 2023",
+            "link": "https://internshala.com/student/interstitial/application/curriculum-development-ai-ml-work-from-home-job-internship-at-sustainable-living-lab-sl21680153419",
+            "image": "https://onpassivenews.us/wp-content/uploads/2021/05/ai_artificial_intelligence_ml_machine_learning_vector_by_kohb_gettyimages_1146634284-100817775-large-1024x683.jpg"
+        },
+        {
+            "id": 18,
+            "title": "Python Flask, FastAPI & MySQL - Backend API Development",
+            "description": "As an intern, develop RESTful APIs using Flask, suggest improvements, gather requirements, update progress, suggest measures, and learn new tech.",
+            "company": "Productize Technologies",
+            "location": "Remote",
+            "duration": "3 Months",
+            "stipend": "₹4,000-8,000/month",
+            "start_date": "between 230th March, 2023 and 4th May, 2023",
+            "end_date": "August 11, 2023",
+            "apply_by": "13 April, 2023",
+            "link": "https://internshala.com/student/interstitial/application/python-flask-fastapi-mysql-backend-api-development-work-from-home-job-internship-at-productize-technologies1680125046",
+            "image": "https://th.bing.com/th/id/OIP.HrSZBch-zaJAr9nM7VDRtwAAAA?pid=ImgDet&rs=1"
+        },
+        {
+            "id": 19,
+            "title": "Configuration Engineering",
+            "description": "As an intern, develop config specs, analyze and resolve defects, recommend system enhancements, optimize config processes, troubleshoot failures, and automate build processes.",
+            "location": "Bangalore",
+            "duration": "6 Months",
+            "stipend": "₹30,000/month",
+            "start_date": "between 30th March, 2023 and 4th May, 2023",
+            "end_date": "August, 2023",
+            "apply_by": "13 April, 2023",
+            "link": "https://internshala.com/student/interstitial/application/configuration-engineering-internship-in-bangalore-at-signzy1680151940",
+            "image": "https://th.bing.com/th/id/OIP.cqxIcxSk6QyA0DsHqosOAgHaFj?pid=ImgDet&rs=1"
+        },
+        {
+            "id": 20,
+            "title": "ReactJS Development",
+            "description": "As an intern, use ReactJS to build secure web pages and securely integrate APIs.",
+            "company": "BreadNButter Tech Private Limited",
+            "location": "Remote",
+            "duration": "1 Months",
+            "stipend": "₹3,000 lump sum",
+            "start_date": "between 29th March, 2023 and 3rd May, 2023",
+            "end_date": "August, 2023",
+            "apply_by": "13 April, 2023",
+            "link": "https://internshala.com/student/interstitial/application/reactjs-development-work-from-home-job-internship-at-breadnbutter-tech-private-limited1680159063",
+            "image": "https://assets.centralindex.com/W/48/21fdcb39ed8094af2620ec6ebeaa79d8.jpg"
         }
     ]
 }
