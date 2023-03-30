@@ -5,7 +5,7 @@ import opportunityTypeData from "./constants/opportunityTypeData";
 import Carousels from "./components/Carousels";
 import LowerNavbar from "./components/LowerNavbar";
 import BounceLoader from "react-spinners/BounceLoader";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer/Footer";
 import "./App.css";
 
 function App() {
