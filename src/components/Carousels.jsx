@@ -40,12 +40,12 @@ export default function Carousels(props) {
   };
 
   return (
-    <div className="h-[650px]">
+    <div className="h-[660px]">
       {/* Container for the images */}
-      <div className="h-[600px] max-w-[98%] w-full mx-auto my-5 relative group">
+      <div className="h-[630px] w-full mx-auto my-5 relative group">
         {/* Display the current image */}
         <img
-          className="h-full w-full object-fill shadow-lg shadow-blue-400 rounded-sm"
+          className="max-h-full min-w-full object-fill rounded-sm"
           src={`${sliderImages[currIndex].url}`}
         />
 
@@ -66,7 +66,7 @@ export default function Carousels(props) {
         </div>
 
         {/* Display the dots that allow the user to move to a specific slide */}
-        <div className="flex top-4 justify-center py-2 text-blue-800">
+        <div className="flex top-4 justify-center py-2 text-zinc-700">
           {sliderImages.map((slide, slideIndex) => (
             <div
               key={slideIndex}

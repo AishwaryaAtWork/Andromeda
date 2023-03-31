@@ -4,13 +4,13 @@ export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <nav className="w-full bg-blue-500 shadow-md shadow-blue-500 border-b-2 border-b-white mb-4 ">
+    <nav className="w-full bg-[#1F2833] border-b-2 border-b-white mb-4 ">
       {/* <img src="abc.jpeg" alt="logo" class="w-9 h-9" /> */}
       <div className="justify-between mx-1 md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-4 md:py-4 md:block">
             <a href="javascript:void(0)">
-              <h2 className="text-2xl font-bold text-white font-serif ">
+              <h2 className="text-2xl font-bold text-[#66FCF1] font-serif ">
                 ScholarSphere
               </h2>
             </a>
@@ -59,16 +59,16 @@ export default function NavBar() {
             }`}
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-              <li className="text-white font-semibold hover:text-blue-800">
+              <li className="text-white font-semibold hover:text-[#66FCF1]">
                 <a href="javascript:void(0)">Home</a>
               </li>
-              <li className="text-white font-semibold hover:text-blue-800">
+              <li className="text-white font-semibold hover:text-[#66FCF1]">
                 <a href="#opportunity">Opportunities</a>
               </li>
-              <li className="text-white font-semibold hover:text-blue-800">
+              <li className="text-white font-semibold hover:text-[#66FCF1]">
                 <a href="javascript:void(0)">About Us</a>
               </li>
-              <li className="text-white font-semibold hover:text-blue-800">
+              <li className="text-white font-semibold hover:text-[#66FCF1]">
                 <a href="javascript:void(0)">Contact Us</a>
               </li>
             </ul>
@@ -93,15 +93,16 @@ export default function NavBar() {
         <div className="hidden space-x-2 md:inline-block">
           <a
             href="javascript:void(0)"
-            className="px-4 py-2 text-white font-semibold bg-blue-900 rounded-md shadow shadow-white hover:bg-blue-400"
+            className="px-4 py-2 text-white font-semibold bg-[#45A29E] rounded-full  border-indigo-50 hover:bg-blue-400"
           >
-            Sign in
+            Subscribe
           </a>
+          {/* make dropdown menu */}
           <a
             href="javascript:void(0)"
-            className="px-4 py-2 text-blue-800 font-semibold bg-white rounded-md shadow shadow-blue-700 hover:bg-blue-200"
+            className="px-4 py-2 text-white font-semibold bg-[#45A29E] rounded-full  border-indigo-50 hover:bg-blue-400"
           >
-            Sign up
+            Profile
           </a>
         </div>
       </div>
