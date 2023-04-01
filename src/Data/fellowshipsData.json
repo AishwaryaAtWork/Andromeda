@@ -2,8 +2,8 @@
     "fellowships": [
         {
             "id": 1,
-            "company": "Code for America",
-            "title": "Fellowship Program",
+            "organization": "Code for America",
+            "name": "Fellowship Program",
             "location": "Various Locations",
             "duration": "11 months",
             "description": "Partner with local governments to improve services and help solve community problems.",
@@ -12,8 +12,8 @@
         },
         {
             "id": 2,
-            "company": "Echoing Green",
-            "title": "Fellowship Program",
+            "organization": "Echoing Green",
+            "name": "Fellowship Program",
             "location": "New York, NY",
             "duration": "18 months",
             "description": "Support emerging social entrepreneurs and help them launch new organizations.",

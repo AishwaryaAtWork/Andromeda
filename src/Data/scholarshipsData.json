@@ -1,0 +1,24 @@
+{
+    "scholarships": [
+        {
+            "id": 1,
+            "organization": "National Merit Scholarship Corporation",
+            "name": "National Merit Scholarship",
+            "location": "USA",
+            "amount": "$2,500",
+            "description": "Recognize and reward academically talented high school students.",
+            "url": "https://www.nationalmerit.org/s/1758/interior.aspx?sid=1758&gid=2&pgid=424",
+            "deadline": "September 15, 2022"
+        },
+        {
+            "id": 2,
+            "organization": "Coca-Cola Scholars Foundation",
+            "name": "Coca-Cola Scholarship",
+            "location": "USA",
+            "amount": "$20,000",
+            "description": "Reward high school seniors who demonstrate excellence in academics, leadership, and service.",
+            "url": "https://www.coca-colascholarsfoundation.org/apply/",
+            "deadline": "October 31, 2022"
+        }
+    ]
+}
