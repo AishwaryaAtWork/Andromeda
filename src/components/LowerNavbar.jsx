@@ -2,11 +2,14 @@ import React, { useState } from "react";
 import CardComponent from "./CardComponent";
 import internshipsData from "../Data/internshipsData";
 import apprenticeshipsData from "../Data/apprenticeshipsData";
+import fellowshipsData from '../Data/fellowshipsData';
+import scholarshipsData from '../Data/scholarshipsData'
+import studentOfferingsData from '../Data/studentOfferingsData'
 
 function LowerNavbar(props) {
   const { opportunityType } = props.opportunityTypeData;
   const [type, setType] = useState("Internships");
-  // console.log(type)
+
   return (
     <>
       {/* Navbar below slider  */}
@@ -34,6 +37,9 @@ function LowerNavbar(props) {
         type={type}
         apprenticeshipsData={apprenticeshipsData}
         internshipsData={internshipsData}
+        studentOfferingsData={studentOfferingsData}
+        scholarshipsData={scholarshipsData}
+        fellowshipsData={fellowshipsData}
       />
       </div>
     </>

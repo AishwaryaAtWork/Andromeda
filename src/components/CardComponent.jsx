@@ -4,10 +4,31 @@ import Card from "./Card";
 export default function CardComponent(props) {
   const { apprenticeships } = props.apprenticeshipsData;
   const { internships } = props.internshipsData;
-  console.log(props.type)
-
+  const { studentOfferings } = props.studentOfferingsData;
+  const { scholarships } = props.scholarshipsData;
+  const { fellowships } = props.fellowshipsData;
+  
   // To decide opportunity on lower navbar click
-  const OpportunityType = props.type.toLowerCase()==="Apprenticeships" ? apprenticeships : internships;
+  var OpportunityType;
+  switch (props.type.toLowerCase()) {
+    case "internships":
+      OpportunityType=internships;
+      break;
+    case "apprenticeships":
+      OpportunityType=apprenticeships;
+      break;
+    case "fellowships":
+       OpportunityType=fellowships;
+      break;
+    case "scholarships":
+      OpportunityType=scholarships;
+      break;
+    case "student offerings":
+      OpportunityType=studentOfferings;
+      break;
+    default:
+      OpportunityType=internships;
+  }
 
   return (
     <>

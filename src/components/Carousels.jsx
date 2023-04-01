@@ -35,12 +35,12 @@ export default function Carousels(props) {
   };
 
   // Function to move to specific slide
-  const goToSlide = (slideIndex) => {
-    setCurrIndex(slideIndex);
-  };
+  // const goToSlide = (slideIndex) => {
+  //   setCurrIndex(slideIndex);
+  // };
 
   return (
-    <div className="h-[40vh] lg:h-[90vh] md:h-[50vh] my-1">
+    <div className="h-[40vh] lg:h-[90vh] md:h-[50vh]">
       {/* Container for the images */}
       <div className="h-full  w-full  relative group">
         {/* Display the current image */}
