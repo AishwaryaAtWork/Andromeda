@@ -10,7 +10,7 @@ export default function NavBar() {
       <div className="justify-between mx-1 md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-4 md:py-4 md:block">
-            <Link to="javascript:void(0)">
+            <Link to="/">
               <h2 className="text-2xl font-bold text-[#66FCF1] font-serif ">
                 ScholarSphere
               </h2>

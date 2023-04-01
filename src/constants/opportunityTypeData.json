@@ -1,3 +1,9 @@
 {
-    "opportunityType" : ["Internships","Apprenticeships","Scholarships"]
+    "opportunityType": [
+        "Internships",
+        "Apprenticeships",
+        "Fellowships",
+        "Scholarships",
+        "Student Offerings"
+    ]
 }
