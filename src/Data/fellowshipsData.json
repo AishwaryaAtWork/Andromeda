@@ -1,0 +1,24 @@
+{
+    "fellowships": [
+        {
+            "id": 1,
+            "organization": "Code for America",
+            "name": "Fellowship Program",
+            "location": "Various Locations",
+            "duration": "11 months",
+            "description": "Partner with local governments to improve services and help solve community problems.",
+            "url": "https://www.codeforamerica.org/programs/fellowship",
+            "deadline": "August 16, 2023"
+        },
+        {
+            "id": 2,
+            "organization": "Echoing Green",
+            "name": "Fellowship Program",
+            "location": "New York, NY",
+            "duration": "18 months",
+            "description": "Support emerging social entrepreneurs and help them launch new organizations.",
+            "url": "https://www.echoinggreen.org/fellowship",
+            "deadline": "October 20, 2022"
+        }
+    ]
+}

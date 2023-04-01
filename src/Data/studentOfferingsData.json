@@ -1,0 +1,18 @@
+{
+    "studentOfferings": [
+        {
+            "id": 1,
+            "name": "GitHub Student Developer Pack",
+            "description": "Access the best developer tools, free of charge, for students. Includes GitHub Pro and other free services and credits from top technology companies.",
+            "url": "https://education.github.com/pack",
+            "eligibility": "Enrolled student with a valid academic email address"
+        },
+        {
+            "id": 2,
+            "name": "Amazon Prime Student",
+            "description": "Get six months of free Amazon Prime, including free two-day shipping on millions of items, streaming of movies and TV shows, and more.",
+            "url": "https://www.amazon.com/gp/student/signup/info",
+            "eligibility": "Enrolled student with a valid .edu email address"
+        }
+    ]
+}

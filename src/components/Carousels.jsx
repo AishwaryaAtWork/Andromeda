@@ -1,29 +1,83 @@
-import React from 'react';
+import React, { useEffect, useState } from "react";
+import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
+import { RxDotFilled } from "react-icons/rx";
 
-export default function C() {
-    return (
-        <>
-            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="https://www.asumidsouth.edu/wp-content/uploads/2021/03/intern.jpeg" class="d-block w-100" alt="..." />
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://www.asumidsouth.edu/wp-content/uploads/2021/03/intern.jpeg" class="d-block w-100" alt="..." />
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://www.asumidsouth.edu/wp-content/uploads/2021/03/intern.jpeg" class="d-block w-100" alt="..." />
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+export default function Carousels(props) {
+  // Extract slider images data from props
+  const { sliderImages } = props.sliderImagesData;
+
+  // State to keep track of current image slide index
+  const [currIndex, setCurrIndex] = useState(0);
+
+  // Move to next slide automatically every 4 seconds
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrIndex((currIndex) =>
+        currIndex < sliderImages.length - 1 ? currIndex + 1 : 0
+      );
+    }, 4000);
+    // Cleanup function to prevent memory leaks
+    return () => clearInterval(interval);
+  }, [setCurrIndex, sliderImages.length]);
+
+  // Function to move to previous slide
+  const prevSlide = () => {
+    const isFirstSlide = currIndex === 0;
+    const newIndex = isFirstSlide ? sliderImages.length - 1 : currIndex - 1;
+    setCurrIndex(newIndex);
+  };
+
+  // Function to move to next slide
+  const nextSlide = () => {
+    const isLastSlide = currIndex === sliderImages.length - 1;
+    const newIndex = isLastSlide ? 0 : currIndex + 1;
+    setCurrIndex(newIndex);
+  };
+
+  // Function to move to specific slide
+  // const goToSlide = (slideIndex) => {
+  //   setCurrIndex(slideIndex);
+  // };
+
+  return (
+    <div className="h-[40vh] lg:h-[90vh] md:h-[50vh]">
+      {/* Container for the images */}
+      <div className="h-full  w-full  relative group">
+        {/* Display the current image */}
+        <img
+          className="h-full  w-full object-fill rounded-sm"
+          src={`${sliderImages[currIndex].url}`}
+        />
+
+        {/* Display the left arrow button */}
+        <div
+          className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full
+              p-2 text-white cursor-pointer transition ease-in-out hover:scale-110 duration-300"
+        >
+          <BsChevronCompactLeft onClick={prevSlide} size={30} />
+        </div>
+
+        {/* Display the right arrow button */}
+        <div
+          className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full
+              p-2 text-white cursor-pointer transition ease-in-out hover:scale-110 duration-300"
+        >
+          <BsChevronCompactRight onClick={nextSlide} size={30} />
+        </div>
+
+        {/* Display the dots that allow the user to move to a specific slide */}
+        {/* <div className="flex top-4 justify-center py-2 text-zinc-700">
+          {sliderImages.map((slide, slideIndex) => (
+            <div
+              key={slideIndex}
+              onClick={() => goToSlide(slideIndex)}
+              className="text-2xl cursor-pointer"
+            >
+              <RxDotFilled />
             </div>
-        </>
-    );
+          ))}
+        </div> */}
+      </div>
+    </div>
+  );
 }

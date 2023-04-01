@@ -1,17 +1,28 @@
-import React from "react";
-import CardComponent from "./components/CardComponent";
+import "./App.css";
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import About from "./components/About";
+import Features from "./components/Features";
+import Footer from "./components/Footer/Footer";
 import NavBar from "./components/NavBar";
-import internshipsData from "../internshipsData";
-import Carousels from "./components/Carousels";
-import Footer from "./components/Footer";
+import Contact from "./components/Contact";
+import Home from "./components/Home";
+import React from "react";
+// import { removeOutdatedData } from './dataUpdater';
 
 function App() {
+  // removeOutdatedData();
   return (
     <>
-      <NavBar />
-      <Carousels />
-      <CardComponent internshipsData={internshipsData} />
-      <Footer/>
+      <BrowserRouter>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/features" element={<Features />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </>
   );
 }
