@@ -1,13 +1,12 @@
-import "./App.css";
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import BounceLoader from "react-spinners/BounceLoader";
-import Carousels from "./components/Carousels";
-import Footer from "./components/Footer/Footer";
-import LowerNavbar from "./components/LowerNavbar";
-import NavBar from "./components/NavBar";
-import opportunityTypeData from "./constants/opportunityTypeData";
 import React, { useEffect, useState } from "react";
+import NavBar from "./components/NavBar";
 import sliderImagesData from "./constants/sliderImagesData";
+import opportunityTypeData from "./constants/opportunityTypeData";
+import Carousels from "./components/Carousels";
+import LowerNavbar from "./components/LowerNavbar";
+import BounceLoader from "react-spinners/BounceLoader";
+import Footer from "./components/Footer/Footer";
+import "./App.css";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -20,22 +19,18 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
-        <NavBar />
-        {loading ? (
-          <div className="loader">
-            <BounceLoader color={"#3b82f6"} loading={loading} size={90} />
-          </div>
-        ) : (
-          <>
-            <Routes>
-              <Route path="/" element={<Carousels sliderImagesData={sliderImagesData} />} />
-              <Route path="/opportunities" element={<LowerNavbar opportunityTypeData={opportunityTypeData} />} />
-              <Route path="/footer" element={<Footer />} />
-            </Routes>
-          </>
-        )}
-      </BrowserRouter>
+      <NavBar />
+      {loading ? (
+        <div className="loader">
+          <BounceLoader color={"#3b82f6"} loading={loading} size={90} />
+        </div>
+      ) : (
+        <>
+          <Carousels sliderImagesData={sliderImagesData} />
+          <LowerNavbar opportunityTypeData={opportunityTypeData} />
+          <Footer />
+        </>
+      )}
     </>
   );
 }
