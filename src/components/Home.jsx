@@ -4,7 +4,6 @@ import LowerNavbar from './LowerNavbar';
 import opportunityTypeData from "../constants/opportunityTypeData";
 import sliderImagesData from "../constants/sliderImagesData";
 
-
 export default function Home() {
     return (
         <>

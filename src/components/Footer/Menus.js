@@ -22,7 +22,6 @@ export const COMPANIES = [
 export const SUPPORT = [
   { name: "Contact Us", link: "#" },
   { name: "About Us", link: "#" },
-  { name: "Subscribe Newsletter", link: "#" },
   { name: "Open-source", link: "#" },
 ];
 

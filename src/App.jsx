@@ -7,8 +7,10 @@ import NavBar from "./components/NavBar";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
 import React from "react";
+// import { removeOutdatedData } from './dataUpdater';
 
 function App() {
+  // removeOutdatedData();
   return (
     <>
       <BrowserRouter>
