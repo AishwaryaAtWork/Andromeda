@@ -14,11 +14,11 @@ function LowerNavbar(props) {
         className="bg-[#3c4857] border-b-2 border-b-white
             md:flex md:items-center md:justify-between"
       >
-        <ul className="md:flex md:items-center ">
+        <ul className="sm:flex sm:items-center ">
           {/* Reanders as much as number of types available in list */}
           {opportunityType.map((types) => (
             <li
-              className="text-xl p-3 text-center text-white hover:bg-[#66FCF1] hover:text-black duration-500 cursor-pointer"
+              className="text-[1.2em] p-[.5em] text-center text-white hover:bg-[#66FCF1] hover:text-black duration-500 cursor-pointer"
               key={types}
               //  To set type of opportunity to render
               onClick={() => setType(types)}

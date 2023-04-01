@@ -40,12 +40,12 @@ export default function Carousels(props) {
   };
 
   return (
-    <div className="h-[660px]">
+    <div className="h-[40vh] lg:h-[90vh] md:h-[50vh] my-1">
       {/* Container for the images */}
-      <div className="h-[630px] w-full mx-auto my-5 relative group">
+      <div className="h-full  w-full  relative group">
         {/* Display the current image */}
         <img
-          className="max-h-full min-w-full object-fill rounded-sm"
+          className="h-full  w-full object-fill rounded-sm"
           src={`${sliderImages[currIndex].url}`}
         />
 
