@@ -15,7 +15,7 @@ export default function Footer() {
             className="lg:text-4xl text-3xl md:mb-0 mb-6 lg:leading-normal font-semibold
          md:w-2/5"
           >
-            <span className="text-teal-400">Feel Free</span> to contact us..
+            Subscribe to our newsletter
           </h1>
           <div>
             <input
