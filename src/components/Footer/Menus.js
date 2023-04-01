@@ -6,17 +6,18 @@ export const TEAM = [
   { name: "Ashish Pant" },
 ];
 export const RESOURCES = [
-  { name: "Internship ", link: "#" },
-  { name: "Apprenticeship ", link: "#" },
-  { name: "Fellowship", link: "#" },
+  { name: "Internships ", link: "#" },
+  { name: "Apprenticeships ", link: "#" },
+  { name: "Fellowships", link: "#" },
   { name: "Scholarship", link: "#" },
+  { name: "Student Offerings", link: "#" },
 ];
 export const COMPANIES = [
+  { name: "Meta", link: "#" },
+  { name: "Apple", link: "#" },
+  { name: "Amazon", link: "#" },
+  { name: "Microsoft", link: "#" },
   { name: "Google", link: "#" },
-  { name: "Graviti", link: "#" },
-  { name: "Planet Meta", link: "#" },
-  { name: "Productize", link: "#" },
-  { name: "Ericsson", link: "#" },
 ];
 export const SUPPORT = [
   { name: "Contact Us", link: "#" },
