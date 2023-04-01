@@ -54,39 +54,23 @@ export default function NavBar() {
         </div>
         <div>
           <div
-            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
-              navbar ? "block" : "hidden"
-            }`}
+            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? "block" : "hidden"
+              }`}
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               <li className="text-white font-semibold hover:text-[#66FCF1]">
                 <a href="javascript:void(0)">Home</a>
               </li>
               <li className="text-white font-semibold hover:text-[#66FCF1]">
-                <a href="#opportunity">Opportunities</a>
+                <a href="#opportunity">About</a>
               </li>
               <li className="text-white font-semibold hover:text-[#66FCF1]">
-                <a href="javascript:void(0)">About Us</a>
+                <a href="javascript:void(0)">Features</a>
               </li>
               <li className="text-white font-semibold hover:text-[#66FCF1]">
-                <a href="javascript:void(0)">Contact Us</a>
+                <a href="javascript:void(0)">Contact</a>
               </li>
             </ul>
-            {/* --------------- Sign in/up button for future use in medium devices ----------------  */}
-            {/* <div className="mt-3 space-y-2 lg:hidden md:inline-block">
-              <a
-                href="javascript:void(0)"
-                className="inline-block w-full px-4 py-2 text-center text-white font-semibold bg-blue-900 rounded-md shadow shadow-white hover:bg-blue-400"
-              >
-                Sign in
-              </a>
-              <a
-                href="javascript:void(0)"
-                className="inline-block w-full px-4 py-2 text-center text-blue-800 font-semibold bg-white rounded-md shadow shadow-blue-700 hover:bg-blue-200"
-              >
-                Sign up
-              </a>
-            </div> */}
           </div>
         </div>
         {/* --------------- Sign in/up button for future use in large devices -----------------  */}
