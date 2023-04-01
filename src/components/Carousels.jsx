@@ -66,7 +66,7 @@ export default function Carousels(props) {
         </div>
 
         {/* Display the dots that allow the user to move to a specific slide */}
-        <div className="flex top-4 justify-center py-2 text-zinc-700">
+        {/* <div className="flex top-4 justify-center py-2 text-zinc-700">
           {sliderImages.map((slide, slideIndex) => (
             <div
               key={slideIndex}
@@ -76,7 +76,7 @@ export default function Carousels(props) {
               <RxDotFilled />
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </div>
   );

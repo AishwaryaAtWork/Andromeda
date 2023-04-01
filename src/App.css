@@ -19,8 +19,7 @@ html::-webkit-scrollbar-track{
     background: transparent;
 }
 html::-webkit-scrollbar-thumb{
-    /* background: #3b82f6; */
-    background: #1e40af;
+    background: #29c6bb;
     border-radius: 1.5rem;
     border: 0.15rem solid transparent;
     background-clip: content-box;

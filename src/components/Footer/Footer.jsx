@@ -25,8 +25,8 @@ export default function Footer() {
            sm:w-72 w-full sm:mr-5 mr-1 lg:mb-0 mb-4 py-2.5 rounded px-2 focus:outline-none"
             />
             <button
-              className="bg-teal-400 hover:bg-teal-500 duration-300 px-5 py-2.5 font-[Poppins]
-           rounded-md text-white md:w-auto w-full"
+              className="bg-teal-400 font-semibold hover:bg-teal-500 duration-300 px-5 py-2.5 font-[Poppins]
+           rounded-md text-white text-lg md:w-auto w-full"
             >
               Subscribe
             </button>

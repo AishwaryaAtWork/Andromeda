@@ -9,9 +9,10 @@ export default function NavBar() {
       {/* <img src="abc.jpeg" alt="logo" class="w-9 h-9" /> */}
       <div className="justify-between mx-1 md:items-center md:flex md:px-8">
         <div>
+          {/* ----------------- Navbar title ------------- */}
           <div className="flex items-center justify-between py-4 md:py-4 md:block">
             <Link to="/">
-              <h2 className="text-2xl font-bold text-[#66FCF1] font-serif ">
+              <h2 className="text-2xl font-bold text-teal-300 font-serif ">
                 ScholarSphere
               </h2>
             </Link>
@@ -53,39 +54,40 @@ export default function NavBar() {
             </div>
           </div>
         </div>
+        {/* --------  Link text in navbar -------- */}
         <div>
           <div
-            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? "block" : "hidden"
+            className={`flex-1 justify-self-center text-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? "block" : "hidden"
               }`}
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-              <li className="text-white font-semibold hover:text-[#66FCF1]">
+              <li className="text-white font-semibold hover:text-teal-300">
                 <Link to="/">Home</Link>
               </li>
-              <li className="text-white font-semibold hover:text-[#66FCF1]">
+              <li className="text-white font-semibold hover:text-teal-300">
                 <Link to="about">About</Link>
               </li>
-              <li className="text-white font-semibold hover:text-[#66FCF1]">
+              <li className="text-white font-semibold hover:text-teal-300">
                 <Link to="features">Features</Link>
               </li>
-              <li className="text-white font-semibold hover:text-[#66FCF1]">
+              <li className="text-white font-semibold hover:text-teal-300">
                 <Link to="contact">Contact</Link>
               </li>
             </ul>
           </div>
         </div>
-        {/* --------------- Sign in/up button for future use in large devices -----------------  */}
+        {/* ---------------Subscribe button -----------------  */}
         <div className="hidden space-x-2 md:inline-block">
           <Link
             to="javascript:void(0)"
-            className="px-4 py-2 text-white font-semibold bg-[#45A29E] rounded-full  border-indigo-50 hover:bg-blue-400"
+            className="px-4 py-2 text-black hover:text-white font-semibold bg-teal-300 hover:bg-teal-500 rounded-full  border-indigo-50 duration-200"
           >
             Subscribe
           </Link>
           {/* make dropdown menu */}
           <Link
             to="javascript:void(0)"
-            className="px-4 py-2 text-white font-semibold bg-[#45A29E] rounded-full  border-indigo-50 hover:bg-blue-400"
+            className="px-4 py-2 text-black hover:text-white font-semibold bg-teal-300 hover:bg-teal-500 rounded-full  border-indigo-50 duration-200"
           >
             Profile
           </Link>

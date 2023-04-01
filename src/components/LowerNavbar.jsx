@@ -28,7 +28,7 @@ function LowerNavbar(props) {
           ))}
         </ul>
       </nav>
-      <div class="mb-8"></div>
+      <div className="mb-8"></div>
       <CardComponent
         type={type}
         apprenticeshipsData={apprenticeshipsData}
