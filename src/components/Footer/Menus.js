@@ -1,8 +1,8 @@
 export const TEAM = [
-  { name: "Ayush Aggarwal" },
-  { name: "Deepak Sharma" },
   { name: "Amit Gupta" },
   { name: "Aishwarya Pathak" },
+  { name: "Ayush Aggarwal" },
+  { name: "Deepak Sharma" },
   { name: "Ashish Pant" },
 ];
 export const RESOURCES = [
@@ -12,13 +12,13 @@ export const RESOURCES = [
   { name: "Scholarship", link: "#" },
   { name: "Student Offerings", link: "#" },
 ];
-export const COMPANIES = [
-  { name: "Meta", link: "#" },
-  { name: "Apple", link: "#" },
-  { name: "Amazon", link: "#" },
-  { name: "Microsoft", link: "#" },
-  { name: "Google", link: "#" },
-];
+// export const COMPANIES = [
+//   { name: "Meta", link: "#" },
+//   { name: "Apple", link: "#" },
+//   { name: "Amazon", link: "#" },
+//   { name: "Microsoft", link: "#" },
+//   { name: "Google", link: "#" },
+// ];
 export const SUPPORT = [
   { name: "Contact Us", link: "#" },
   { name: "About Us", link: "#" },
