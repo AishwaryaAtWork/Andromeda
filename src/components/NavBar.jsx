@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
@@ -9,11 +10,11 @@ export default function NavBar() {
       <div className="justify-between mx-1 md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-4 md:py-4 md:block">
-            <a href="javascript:void(0)">
+            <Link to="javascript:void(0)">
               <h2 className="text-2xl font-bold text-[#66FCF1] font-serif ">
                 ScholarSphere
               </h2>
-            </a>
+            </Link>
             <div className="md:hidden">
               <button
                 className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
@@ -54,56 +55,40 @@ export default function NavBar() {
         </div>
         <div>
           <div
-            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
-              navbar ? "block" : "hidden"
-            }`}
+            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? "block" : "hidden"
+              }`}
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               <li className="text-white font-semibold hover:text-[#66FCF1]">
-                <a href="javascript:void(0)">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li className="text-white font-semibold hover:text-[#66FCF1]">
-                <a href="#opportunity">Opportunities</a>
+                <Link to="about">About</Link>
               </li>
               <li className="text-white font-semibold hover:text-[#66FCF1]">
-                <a href="javascript:void(0)">About Us</a>
+                <Link to="features">Features</Link>
               </li>
               <li className="text-white font-semibold hover:text-[#66FCF1]">
-                <a href="javascript:void(0)">Contact Us</a>
+                <Link to="contact">Contact</Link>
               </li>
             </ul>
-            {/* --------------- Sign in/up button for future use in medium devices ----------------  */}
-            {/* <div className="mt-3 space-y-2 lg:hidden md:inline-block">
-              <a
-                href="javascript:void(0)"
-                className="inline-block w-full px-4 py-2 text-center text-white font-semibold bg-blue-900 rounded-md shadow shadow-white hover:bg-blue-400"
-              >
-                Sign in
-              </a>
-              <a
-                href="javascript:void(0)"
-                className="inline-block w-full px-4 py-2 text-center text-blue-800 font-semibold bg-white rounded-md shadow shadow-blue-700 hover:bg-blue-200"
-              >
-                Sign up
-              </a>
-            </div> */}
           </div>
         </div>
         {/* --------------- Sign in/up button for future use in large devices -----------------  */}
         <div className="hidden space-x-2 md:inline-block">
-          <a
-            href="javascript:void(0)"
+          <Link
+            to="javascript:void(0)"
             className="px-4 py-2 text-white font-semibold bg-[#45A29E] rounded-full  border-indigo-50 hover:bg-blue-400"
           >
             Subscribe
-          </a>
+          </Link>
           {/* make dropdown menu */}
-          <a
-            href="javascript:void(0)"
+          <Link
+            to="javascript:void(0)"
             className="px-4 py-2 text-white font-semibold bg-[#45A29E] rounded-full  border-indigo-50 hover:bg-blue-400"
           >
             Profile
-          </a>
+          </Link>
         </div>
       </div>
     </nav>
