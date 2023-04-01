@@ -1,0 +1,5 @@
+        <>
+          <Carousels sliderImagesData={sliderImagesData} />
+          <LowerNavbar opportunityTypeData={opportunityTypeData} />
+          <Footer />
+        </>

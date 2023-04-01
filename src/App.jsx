@@ -1,13 +1,13 @@
-import React, { useEffect, useState } from "react";
-import NavBar from "./components/NavBar";
-import sliderImagesData from "./constants/sliderImagesData";
-import opportunityTypeData from "./constants/opportunityTypeData";
-import Carousels from "./components/Carousels";
-import LowerNavbar from "./components/LowerNavbar";
-import BounceLoader from "react-spinners/BounceLoader";
-import Footer from "./components/Footer/Footer";
 import "./App.css";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import BounceLoader from "react-spinners/BounceLoader";
+import Carousels from "./components/Carousels";
+import Footer from "./components/Footer/Footer";
+import LowerNavbar from "./components/LowerNavbar";
+import NavBar from "./components/NavBar";
+import opportunityTypeData from "./constants/opportunityTypeData";
+import React, { useEffect, useState } from "react";
+import sliderImagesData from "./constants/sliderImagesData";
 
 function App() {
   const [loading, setLoading] = useState(false);
