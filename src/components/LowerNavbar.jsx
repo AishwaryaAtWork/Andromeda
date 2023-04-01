@@ -6,6 +6,7 @@ import apprenticeshipsData from "../Data/apprenticeshipsData";
 function LowerNavbar(props) {
   const { opportunityType } = props.opportunityTypeData;
   const [type, setType] = useState("Internships");
+  // console.log(type)
   return (
     <>
       {/* Navbar below slider  */}
@@ -28,12 +29,13 @@ function LowerNavbar(props) {
           ))}
         </ul>
       </nav>
-      <div className="mb-8"></div>
+      <div className="mb-8">
       <CardComponent
         type={type}
         apprenticeshipsData={apprenticeshipsData}
         internshipsData={internshipsData}
       />
+      </div>
     </>
   );
 }
