@@ -7,6 +7,7 @@ import LowerNavbar from "./components/LowerNavbar";
 import BounceLoader from "react-spinners/BounceLoader";
 import Footer from "./components/Footer/Footer";
 import "./App.css";
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -19,18 +20,22 @@ function App() {
 
   return (
     <>
-      <NavBar />
-      {loading ? (
-        <div className="loader">
-          <BounceLoader color={"#3b82f6"} loading={loading} size={90} />
-        </div>
-      ) : (
-        <>
-          <Carousels sliderImagesData={sliderImagesData} />
-          <LowerNavbar opportunityTypeData={opportunityTypeData} />
-          <Footer />
-        </>
-      )}
+      <BrowserRouter>
+        <NavBar />
+        {loading ? (
+          <div className="loader">
+            <BounceLoader color={"#3b82f6"} loading={loading} size={90} />
+          </div>
+        ) : (
+          <>
+            <Routes>
+              <Route path="/" element={<Carousels sliderImagesData={sliderImagesData} />} />
+              <Route path="/opportunities" element={<LowerNavbar opportunityTypeData={opportunityTypeData} />} />
+              <Route path="/footer" element={<Footer />} />
+            </Routes>
+          </>
+        )}
+      </BrowserRouter>
     </>
   );
 }
