@@ -5,7 +5,7 @@ export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <nav className="w-full max-h-[10vh] bg-[#1F2833] border-b-2 border-b-white ">
+    <nav className="w-full max-h-[10vh] bg-[#1F2833]  ">
       {/* <img src="abc.jpeg" alt="logo" class="w-9 h-9" /> */}
       <div className="justify-between mx-1 md:items-center md:flex md:px-8">
         <div>
