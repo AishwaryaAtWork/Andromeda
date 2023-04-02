@@ -3,12 +3,12 @@ import React from "react";
 export default function Card({ t }) {
   return (
     <>
-      <div className="rounded-sm overflow-hidden shadow-md shadow-zinc-350 w-[95%] my-3 
+      <div className="rounded-sm overflow-hidden shadow-md shadow-zinc-350 w-[92%] my-3 
       transform transition-all hover:scale-105 duration-300 relative">
         
         {/* Card images here  */}
         <img src={t.image}
-          className="rounded-t-sm w-full h-[200px] object-fill bg-white shadow-sm shadow-zinc-300"/>
+          className="rounded-t-sm w-full h-[30vh] object-fill bg-white shadow-sm shadow-zinc-300"/>
 
         {/* Card textual data + button  */}
         <div className=" m-3 h-[335px]">
