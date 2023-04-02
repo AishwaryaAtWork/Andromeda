@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Helmet } from "react-helmet";
 const Accordion = () => {
   return (
-    <section class="pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]"
+    <section class="pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
       <Helmet>
         <link
           rel="stylesheet"
@@ -214,6 +214,7 @@ const Accordion = () => {
         </div>
       </div>
     </section>
+
   );
 };
 
