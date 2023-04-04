@@ -1,9 +1,9 @@
 export const TEAM = [
-  { name: "Amit Gupta" },
-  { name: "Aishwarya Pathak" },
-  { name: "Ayush Aggarwal" },
-  { name: "Deepak Sharma" },
-  { name: "Ashish Pant" },
+  { name: "Amit Gupta" ,link: "https://github.com/1byx"},
+  { name: "Ayush Aggarwal" ,link: "https://github.com/Ayush40"},
+  { name: "Deepak Sharma" ,link: "https://github.com/heyits-deepak"},
+  { name: "Ashish Pant" ,link: "https://github.com/ashishpant31"},
+  { name: "Aishwarya Pathak" ,link: "https://github.com/AishwaryaAtWork"},
 ];
 export const RESOURCES = [
   { name: "Internships ", link: "#" },
@@ -22,7 +22,7 @@ export const RESOURCES = [
 export const SUPPORT = [
   { name: "Contact Us", link: "#" },
   { name: "About Us", link: "#" },
-  { name: "Open-source", link: "#" },
+  { name: "Open-source", link: "https://github.com/1byx/andromeda" },
 ];
 
 export const Icons = [
