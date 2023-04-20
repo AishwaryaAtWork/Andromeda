@@ -13,7 +13,7 @@ export default function NavBar() {
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <a href="javascript:void(0)">
               <h2 className="text-2xl font-bold text-white font-abc">
-                ScholarSphere
+                <Link to='/'>ScholarSphere</Link>
               </h2>
             </a>
             <div className="md:hidden">
@@ -62,16 +62,16 @@ export default function NavBar() {
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               <li className="text-white hover:text-[#66FCF1] font-def text-xl">
-                <a href="javascript:void(0)">Home</a>
+                <Link to='/'>Home</Link>
               </li>
               <li className="text-white hover:text-[#66FCF1] font-def  text-xl">
-                <a href="javascript:void(0)">Opportunities</a>
+                <Link to='/features'>Features</Link>
               </li>
               <li className="text-white hover:text-[#66FCF1] font-def text-xl">
-                <a href="javascript:void(0)">About US</a>
+                <Link to='/about'>About Us</Link>
               </li>
               <li className="text-white hover:text-[#66FCF1] font-def text-xl">
-                <a href="javascript:void(0)">Contact US</a>
+                <Link to='/contact'>Contact Us</Link>
               </li>
             </ul>
 
@@ -93,7 +93,7 @@ export default function NavBar() {
         </div>
         <div className="hidden space-x-2 md:inline-block">
           <a
-            href="javascript:void(0)"
+            href="#subscribe"
             className="px-4 py-2 text-slate-900 bg-[#66FCF1] rounded-full shadow hover:bg-white"
           >
             Subscribe

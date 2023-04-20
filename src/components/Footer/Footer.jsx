@@ -5,7 +5,7 @@ import { Icons } from "./Menus";
 
 export default function Footer() {
   return (
-    <div>
+    <div id="subscribe">
       {/* add some break */}
       <div className="h-10"></div>
       {/* Footer */}

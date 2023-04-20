@@ -6,15 +6,32 @@ import Footer from "./components/Footer/Footer";
 import NavBar from "./components/NavBar";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
-import React from "react";
-// import { removeOutdatedData } from './dataUpdater';
+import React, { useEffect, useState } from "react";
+import BounceLoader from "react-spinners/BounceLoader";
 
 function App() {
-  // removeOutdatedData();
+  const [loading, setLoading]= useState(false);
+  useEffect(()=>{
+    setLoading(true);
+    setTimeout(()=>{
+      setLoading(false);
+    },3000);
+  },[]);
   return (
     <>
       <BrowserRouter>
         <NavBar />
+        {
+        loading ?
+        <div className="loader">
+          <BounceLoader 
+          color={"#33D1C7"}
+          loading={loading}
+          size={90}
+      />
+        </div>
+        :
+        <>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -22,6 +39,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
+        </>
+        }
       </BrowserRouter>
     </>
   );

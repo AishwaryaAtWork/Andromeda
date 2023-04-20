@@ -49,7 +49,7 @@ export default function Carousels(props) {
           className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full
               p-2 text-white cursor-pointer transition ease-in-out hover:scale-110 duration-300"
         >
-          <BsChevronCompactLeft onClick={prevSlide} size={30} />
+          <BsChevronCompactLeft onClick={prevSlide} size={40} />
         </div>
 
         {/* Display the right arrow button */}
@@ -57,7 +57,7 @@ export default function Carousels(props) {
           className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full
               p-2 text-white cursor-pointer transition ease-in-out hover:scale-110 duration-300"
         >
-          <BsChevronCompactRight onClick={nextSlide} size={30} />
+          <BsChevronCompactRight onClick={nextSlide} size={40} />
         </div>
 
         {/* Display the dots that allow the user to move to a specific slide */}
