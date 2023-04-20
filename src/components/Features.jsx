@@ -26,7 +26,7 @@ const Accordion = () => {
         </div>
         <div class="-mx-4 flex flex-wrap">
           <div class="w-full px-4 md:w-1/2 lg:w-1/3">
-            <div class="mb-8 rounded-[20px] bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
+            <div class="mb-8 rounded-[20px] bg-slate-50 p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
               <div class="bg-primary mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl">
                 <svg
                   width="32"
@@ -42,16 +42,17 @@ const Accordion = () => {
                 </svg>
               </div>
               <h4 class="text-dark mb-3 text-xl font-semibold">
-                Refreshing Design
+                Hands-on learning experience
               </h4>
               <p class="text-body-color">
-                We dejoy working with discerning clients, people for whom
-                qualuty, service, integrity & aesthetics.
+                Students will have the opportunity to gain practical experience
+                and develop skills in their field of interest by working on
+                real-world projects.
               </p>
             </div>
           </div>
           <div class="w-full px-4 md:w-1/2 lg:w-1/3">
-            <div class="mb-8 rounded-[20px] bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
+            <div class="mb-8 rounded-[20px] bg-slate-50 p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
               <div class="bg-primary mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl">
                 <svg
                   width="39"
@@ -75,16 +76,17 @@ const Accordion = () => {
                 </svg>
               </div>
               <h4 class="text-dark mb-3 text-xl font-semibold">
-                Based on Tailwind CSS
+                Professional development
               </h4>
               <p class="text-body-color">
-                We dejoy working with discerning clients, people for whom
-                qualuty, service, integrity & aesthetics.
+                Interns etc, will receive mentorship and guidance from
+                experienced professionals in their field, which can help them
+                grow both personally and professionally.
               </p>
             </div>
           </div>
           <div class="w-full px-4 md:w-1/2 lg:w-1/3">
-            <div class="mb-8 rounded-[20px] bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
+            <div class="mb-8 rounded-[20px] bg-slate-50 p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
               <div class="bg-primary mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl">
                 <svg
                   width="35"
@@ -112,16 +114,17 @@ const Accordion = () => {
                 </svg>
               </div>
               <h4 class="text-dark mb-3 text-xl font-semibold">
-                100+ Components
+                Networking opportunities
               </h4>
               <p class="text-body-color">
-                We dejoy working with discerning clients, people for whom
-                qualuty, service, integrity & aesthetics.
+                Students will have the chance to connect with professionals in
+                their field and build their network, which can lead to future
+                job opportunities.
               </p>
             </div>
           </div>
           <div class="w-full px-4 md:w-1/2 lg:w-1/3">
-            <div class="mb-8 rounded-[20px] bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
+            <div class="mb-8 rounded-[20px] bg-slate-50 p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
               <div class="bg-primary mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl">
                 <svg
                   width="35"
@@ -149,16 +152,16 @@ const Accordion = () => {
                 </svg>
               </div>
               <h4 class="text-dark mb-3 text-xl font-semibold">
-                Speed Optimized
+                Academic credit
               </h4>
               <p class="text-body-color">
-                We dejoy working with discerning clients, people for whom
-                qualuty, service, integrity & aesthetics.
+                Some programs may offer academic credit for completing an
+                internship, apprenticeship, or fellowship.
               </p>
             </div>
           </div>
           <div class="w-full px-4 md:w-1/2 lg:w-1/3">
-            <div class="mb-8 rounded-[20px] bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
+            <div class="mb-8 rounded-[20px] bg-slate-50 p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
               <div class="bg-primary mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl">
                 <svg
                   width="35"
@@ -174,16 +177,17 @@ const Accordion = () => {
                 </svg>
               </div>
               <h4 class="text-dark mb-3 text-xl font-semibold">
-                Fully Customizable
+                Stipend or compensation
               </h4>
               <p class="text-body-color">
-                We dejoy working with discerning clients, people for whom
-                qualuty, service, integrity & aesthetics.
+                Some programs may offer a stipend for students, which can help
+                cover living expenses or other costs associated with
+                participating in the program.
               </p>
             </div>
           </div>
           <div class="w-full px-4 md:w-1/2 lg:w-1/3">
-            <div class="mb-8 rounded-[20px] bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
+            <div class="mb-8 rounded-[20px] bg-slate-50 p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
               <div class="bg-primary mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl">
                 <svg
                   width="35"
@@ -203,11 +207,12 @@ const Accordion = () => {
                 </svg>
               </div>
               <h4 class="text-dark mb-3 text-xl font-semibold">
-                Regular Updates
+                Diverse range of opportunities
               </h4>
               <p class="text-body-color">
-                We dejoy working with discerning clients, people for whom
-                qualuty, service, integrity & aesthetics.
+                Showcase a variety of opportunities across industries and
+                Provide hands-on experience, professional development, and
+                networking opportunities.
               </p>
             </div>
           </div>

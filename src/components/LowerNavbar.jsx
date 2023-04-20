@@ -15,14 +15,13 @@ function LowerNavbar(props) {
       {/* Navbar below slider  */}
       <nav
         id="opportunity"
-        className="bg-[#3c4857] border-b-2 border-b-white
-            md:flex md:items-center md:justify-between"
+        className="bg-[#3c4857] md:flex md:items-center md:justify-between"
       >
         <ul className="sm:flex sm:items-center ">
           {/* Reanders as much as number of types available in list */}
           {opportunityType.map((types) => (
             <li
-              className="text-[1.2em] p-[.5em] text-center text-white hover:bg-[#66FCF1] hover:text-black duration-500 cursor-pointer"
+              className="text-[1.2em] px-[.5em] py-[.2em] text-center text-white hover:bg-[#66FCF1] hover:text-black duration-500 cursor-pointer"
               key={types}
               //  To set type of opportunity to render
               onClick={() => setType(types)}

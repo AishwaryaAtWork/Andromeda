@@ -33,7 +33,7 @@ export default function CardComponent(props) {
   return (
     <>
       {/* Card container div  */}
-      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 justify-items-center">
+      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 justify-items-center m-3">
         {OpportunityType.map((t) => (
           <Card t={t} key={t.id} />
       

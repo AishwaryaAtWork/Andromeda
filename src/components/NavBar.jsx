@@ -1,21 +1,20 @@
+import React from "react";
 import { useState } from "react";
-import { Link } from "react-router-dom";
 
 export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <nav className="w-full max-h-[10vh] bg-[#1F2833] border-b-2 border-b-white ">
+    <nav className="w-full bg-zinc-100 shadow">
       {/* <img src="abc.jpeg" alt="logo" class="w-9 h-9" /> */}
       <div className="justify-between mx-1 md:items-center md:flex md:px-8">
         <div>
-          {/* ----------------- Navbar title ------------- */}
-          <div className="flex items-center justify-between py-4 md:py-4 md:block">
-            <Link to="/">
-              <h2 className="text-2xl font-bold text-teal-300 font-serif ">
-                ScholarSphere
+          <div className="flex items-center justify-between py-3 md:py-5 md:block">
+            <a href="javascript:void(0)">
+              <h2 className="text-2xl font-bold text-black font-serif">
+                Interninfo
               </h2>
-            </Link>
+            </a>
             <div className="md:hidden">
               <button
                 className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
@@ -54,75 +53,56 @@ export default function NavBar() {
             </div>
           </div>
         </div>
-        {/* --------  Link text in navbar -------- */}
         <div>
           <div
-            className={`flex-1 justify-self-center text-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
               navbar ? "block" : "hidden"
             }`}
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-              <li className="text-white font-semibold hover:text-teal-300 text-xl">
-                <Link to="/">Home</Link>
+              <li className="text-black hover:text-blue-900">
+                <a href="javascript:void(0)">Home</a>
               </li>
-              <li className="text-white font-semibold hover:text-teal-300 text-xl">
-                <Link to="about">About</Link>
+              <li className="text-black hover:text-blue-900">
+                <a href="javascript:void(0)">Opportunities</a>
               </li>
-              <li className="text-white font-semibold hover:text-teal-300 text-xl">
-                <Link to="features">Features</Link>
+              <li className="text-black hover:text-blue-900">
+                <a href="javascript:void(0)">About US</a>
               </li>
-              <li className="text-white font-semibold hover:text-teal-300 text-xl">
-                <Link to="contact">Contact</Link>
+              <li className="text-black hover:text-blue-900">
+                <a href="javascript:void(0)">Contact US</a>
               </li>
             </ul>
-          </div>
-        </div>
-        {/* Add working search bar */}
-        <div className="flex items-center justify-center w-full md:w-1/2">
-          <div className="relative w-full max-w-xl mr-6 focus-within:text-white">
-            <div className="absolute inset-y-0 flex items-center pl-2">
-              <svg
-                className="w-5 h-5"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M10 12a2 2 0 100-4 2 2 0 000 4z"
-                  clipRule="evenodd"
-                />
-                <path
-                  fillRule="evenodd"
-                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm0 2a10 10 0 100-20 10 10 0 000 20z"
-                  clipRule="evenodd"
-                />
-              </svg>
-            </div>
-            <input
-              className="w-full py-2 pl-8 pr-2 text-black bg-slate-100 rounded-full focus:outline-none focus:bg-white focus:text-gray-900"
-              type="text"
-              placeholder="Search"
-              aria-label="Search"
-            />
-          </div>
-        </div>
 
-        {/* ---------------Subscribe button -----------------  */}
+            <div className="mt-3 space-y-2 lg:hidden md:inline-block">
+              <a
+                href="javascript:void(0)"
+                className="inline-block w-full px-4 py-2 text-center text-white bg-cyan-400 rounded-md shadow hover:bg-cyan-800"
+              >
+                Sign in
+              </a>
+              <a
+                href="javascript:void(0)"
+                className="inline-block w-full px-4 py-2 text-center text-gray-800 bg-white rounded-md shadow hover:bg-gray-100"
+              >
+                Sign up
+              </a>
+            </div>
+          </div>
+        </div>
         <div className="hidden space-x-2 md:inline-block">
-          <Link
-            to="javascript:void(0)"
-            className="px-4 py-2 text-black hover:text-white font-semibold bg-teal-300 hover:bg-teal-500 rounded-full  border-indigo-50 duration-200 text-base"
+          <a
+            href="javascript:void(0)"
+            className="px-4 py-2 text-white bg-cyan-400 rounded-md shadow hover:bg-cyan-700"
           >
-            Subscribe
-          </Link>
-          {/* make dropdown menu */}
-          <Link
-            to="javascript:void(0)"
-            className="px-4 py-2 text-black hover:text-white font-semibold bg-teal-300 hover:bg-teal-500 rounded-full  border-indigo-50 duration-200 text-base"
+            Sign in
+          </a>
+          <a
+            href="javascript:void(0)"
+            className="px-4 py-2 text-gray-800 bg-white rounded-md shadow hover:bg-gray-100"
           >
-            Profile
-          </Link>
+            Sign up
+          </a>
         </div>
       </div>
     </nav>

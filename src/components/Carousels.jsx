@@ -34,11 +34,6 @@ export default function Carousels(props) {
     setCurrIndex(newIndex);
   };
 
-  // Function to move to specific slide
-  // const goToSlide = (slideIndex) => {
-  //   setCurrIndex(slideIndex);
-  // };
-
   return (
     <div className="h-[40vh] lg:h-[90vh] md:h-[50vh]">
       {/* Container for the images */}
@@ -70,7 +65,7 @@ export default function Carousels(props) {
           {sliderImages.map((slide, slideIndex) => (
             <div
               key={slideIndex}
-              onClick={() => goToSlide(slideIndex)}
+              onClick={() => setCurrIndex(slideIndex)}
               className="text-2xl cursor-pointer"
             >
               <RxDotFilled />
