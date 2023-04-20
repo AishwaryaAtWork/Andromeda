@@ -6,14 +6,14 @@ export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <nav className="w-full bg-zinc-100 shadow">
+    <nav className="w-full bg-[#3c4857] shadow">
       {/* <img src="abc.jpeg" alt="logo" class="w-9 h-9" /> */}
       <div className="justify-between mx-1 md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <a href="javascript:void(0)">
-              <h2 className="text-2xl font-bold text-black font-serif">
-                <Link to='/'>Scholarsphere</Link>
+              <h2 className="text-2xl font-bold text-white font-abc">
+                ScholarSphere
               </h2>
             </a>
             <div className="md:hidden">
@@ -61,32 +61,32 @@ export default function NavBar() {
             }`}
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-              <li className="text-black hover:text-blue-900">
-                <Link to='/'>Home</Link>
+              <li className="text-white hover:text-[#66FCF1] font-def text-xl">
+                <a href="javascript:void(0)">Home</a>
               </li>
-              <li className="text-black hover:text-blue-900">
-                <Link to='/features'>Features </Link>
+              <li className="text-white hover:text-[#66FCF1] font-def  text-xl">
+                <a href="javascript:void(0)">Opportunities</a>
               </li>
-              <li className="text-black hover:text-blue-900">
-                <Link to='/about'>About Us</Link>
+              <li className="text-white hover:text-[#66FCF1] font-def text-xl">
+                <a href="javascript:void(0)">About US</a>
               </li>
-              <li className="text-black hover:text-blue-900">
-                <Link to='/contact'>Contact Us</Link>
+              <li className="text-white hover:text-[#66FCF1] font-def text-xl">
+                <a href="javascript:void(0)">Contact US</a>
               </li>
             </ul>
 
             <div className="mt-3 space-y-2 lg:hidden md:inline-block">
               <a
                 href="javascript:void(0)"
-                className="inline-block w-full px-4 py-2 text-center text-white bg-cyan-400 rounded-md shadow hover:bg-cyan-800"
+                className="inline-block w-full px-4 py-2 text-center text-slate-900 bg-[#66FCF1] rounded-full shadow hover:bg-white"
               >
-                Sign in
+                Subscribe
               </a>
               <a
                 href="javascript:void(0)"
-                className="inline-block w-full px-4 py-2 text-center text-gray-800 bg-white rounded-md shadow hover:bg-gray-100"
+                className="inline-block w-full px-4 py-2 text-center text-slate-900 bg-[#66FCF1] rounded-full shadow hover:bg-white"
               >
-                Sign up
+                My Profile
               </a>
             </div>
           </div>
@@ -94,15 +94,15 @@ export default function NavBar() {
         <div className="hidden space-x-2 md:inline-block">
           <a
             href="javascript:void(0)"
-            className="px-4 py-2 text-white bg-cyan-400 rounded-md shadow hover:bg-cyan-700"
+            className="px-4 py-2 text-slate-900 bg-[#66FCF1] rounded-full shadow hover:bg-white"
           >
-            Sign in
+            Subscribe
           </a>
           <a
             href="javascript:void(0)"
-            className="px-4 py-2 text-gray-800 bg-white rounded-md shadow hover:bg-gray-100"
+            className="px-4 py-2 text-slate-900 bg-[#66FCF1] rounded-full shadow hover:bg-white"
           >
-            Sign up
+            My Profile
           </a>
         </div>
       </div>
