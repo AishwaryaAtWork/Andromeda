@@ -6,11 +6,11 @@ export const TEAM = [
   { name: "Aishwarya Pathak" ,link: "https://github.com/AishwaryaAtWork"},
 ];
 export const RESOURCES = [
-  { name: "Internships ", link: "#" },
-  { name: "Apprenticeships ", link: "#" },
-  { name: "Fellowships", link: "#" },
-  { name: "Scholarship", link: "#" },
-  { name: "Student Offerings", link: "#" },
+  { name: "Internships ", link: "#opportunity" },
+  { name: "Apprenticeships ", link: "#opportunity" },
+  { name: "Fellowships", link: "#opportunity" },
+  { name: "Scholarship", link: "#opportunity" },
+  { name: "Student Offerings", link: "#opportunity" },
 ];
 // export const COMPANIES = [
 //   { name: "Meta", link: "#" },
@@ -20,8 +20,8 @@ export const RESOURCES = [
 //   { name: "Google", link: "#" },
 // ];
 export const SUPPORT = [
-  { name: "Contact Us", link: "#" },
-  { name: "About Us", link: "#" },
+  { name: "Contact Us", link: "/contact" },
+  { name: "About Us", link: "/about" },
   { name: "Open-source", link: "https://github.com/1byx/andromeda" },
 ];
 

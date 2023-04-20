@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
@@ -12,7 +13,7 @@ export default function NavBar() {
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <a href="javascript:void(0)">
               <h2 className="text-2xl font-bold text-black font-serif">
-                Interninfo
+                <Link to='/'>Scholarsphere</Link>
               </h2>
             </a>
             <div className="md:hidden">
@@ -61,16 +62,16 @@ export default function NavBar() {
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               <li className="text-black hover:text-blue-900">
-                <a href="javascript:void(0)">Home</a>
+                <Link to='/'>Home</Link>
               </li>
               <li className="text-black hover:text-blue-900">
-                <a href="javascript:void(0)">Opportunities</a>
+                <Link to='/features'>Features </Link>
               </li>
               <li className="text-black hover:text-blue-900">
-                <a href="javascript:void(0)">About US</a>
+                <Link to='/about'>About Us</Link>
               </li>
               <li className="text-black hover:text-blue-900">
-                <a href="javascript:void(0)">Contact US</a>
+                <Link to='/contact'>Contact Us</Link>
               </li>
             </ul>
 
