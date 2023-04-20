@@ -93,7 +93,7 @@ export default function NavBar() {
         </div>
         <div className="hidden space-x-2 md:inline-block">
           <a
-            href="javascript:void(0)"
+            href="#subscribe"
             className="px-4 py-2 text-slate-900 bg-[#66FCF1] rounded-full shadow font-semibold hover:bg-white"
           >
             Subscribe
