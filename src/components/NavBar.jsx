@@ -78,13 +78,13 @@ export default function NavBar() {
             <div className="mt-3 space-y-2 lg:hidden md:inline-block">
               <a
                 href="javascript:void(0)"
-                className="inline-block w-full px-4 py-2 text-center text-slate-900 bg-[#66FCF1] rounded-full shadow hover:bg-white"
+                className="inline-block w-full px-4 py-2 text-center text-slate-900 bg-[#66FCF1] rounded-full shadow font-semibold hover:bg-white"
               >
                 Subscribe
               </a>
               <a
                 href="javascript:void(0)"
-                className="inline-block w-full px-4 py-2 text-center text-slate-900 bg-[#66FCF1] rounded-full shadow hover:bg-white"
+                className="inline-block w-full px-4 py-2 text-center text-slate-900 bg-[#66FCF1] rounded-full shadow font-semibold hover:bg-white"
               >
                 My Profile
               </a>
@@ -94,13 +94,13 @@ export default function NavBar() {
         <div className="hidden space-x-2 md:inline-block">
           <a
             href="javascript:void(0)"
-            className="px-4 py-2 text-slate-900 bg-[#66FCF1] rounded-full shadow hover:bg-white"
+            className="px-4 py-2 text-slate-900 bg-[#66FCF1] rounded-full shadow font-semibold hover:bg-white"
           >
             Subscribe
           </a>
           <a
             href="javascript:void(0)"
-            className="px-4 py-2 text-slate-900 bg-[#66FCF1] rounded-full shadow hover:bg-white"
+            className="px-4 py-2 text-slate-900 bg-[#66FCF1] rounded-full shadow font-semibold hover:bg-white"
           >
             My Profile
           </a>
